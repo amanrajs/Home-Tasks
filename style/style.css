@@ -1,31 +1,53 @@
-i{
-  color:#FFFFFD
-  font-size: 20px;
+.popup{
+  display: none;
+  position: fixed;top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -450px;
+  width : 70%;
+  height: 70%;
+  z-index:100;
+  background-color:white;
+  border: solid;
+  border-width: 1px;
+  overflow-y: scroll;
+  padding:10px;
 }
 img{
-  width: 100%;
-}
-#head{
-    margin-left: 16px;
-    padding-top: 16px;
-    color:#FFFFFD;"
-}
-#{
-margin-left: 16px;
-color:#FFFFFD;
-font-size: 0.7em;
+  width: 20%;
 }
 body{
   margin:0px;
-  height:100%
 }
 header{
-  padding-bottom:  10px;
+  margin: 0px;
   border-width: 0.1px;
   background-color:#273854;
 }
-.rightcols{
-  margin-top:16px
+.headerbox{
+display: flex;
+}
+HR{
+  margin: 0px;
+}
+/* footer{
+
+  margin: 0px;
+  height: 5%;
+  border-width: 0.1px;
+    background-color:#273854;
+    color:#FFFFFD;
+} */
+h2{
+  color: white;
+  padding:20px;
+  margin: 0px;
+}
+i{
+  padding:25px;
+  margin: 0px;
+  color:#FFFFFD;
+
 }
 footer{
   position: fixed;
@@ -36,17 +58,30 @@ footer{
     color:#FFFFFD;
 }
 main{
-  display: flex;
   height: 80%;
+  width: 100%;
   margin: 0px;
   border-width: 0.1px;
 
 }
+.fullcont{
+  display: flex;
+
+}
+
+.main-container{
+  width: 100%;
+}
 .left-container{
+   display: flex;
     width: 75%;
     height: 100%;
+    flex-direction: column;
 }
 .right-container{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
   width: 25%;
 }
 .cols{
@@ -59,48 +94,69 @@ main{
   background-color: #242424;
   color:	#FFFFFD;
 }
+.image{
+  width:15%;
+  height:15%;
+}
+card{
+  display: inline-block;
+
+}
 .col-picture{
   margin-top: 16px;
   margin-left: 32px;
   width: 16%;
 }
-
-/* h5{
-margin: 5px;
-} */
 .col-content{
     width: 75%;
     margin-top: 16px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-left: 22px;
+  /* padding-bottom: 0px; */
 }
 #ddlnewschannel{
   width: 50%;
 }
-h4{
+h4,h6,p{
   padding: 0px;
   margin: 0px;
-  margin-bottom:2px;
-}
-h6{
-  padding: 0px;
-  margin: 0px;
-margin-bottom:5px;
-}
-
-p{
-  padding: 0px;
-  margin: 0px;
-margin-bottom:5px;
-}
-
-#foot{
-  margin:10px;
-  text-align:center;
 }
 #btn{
-  background-color: #C75D48;
-  margin-bottom:5px
+  background-color: #C75D48
+}
+.box{
+  display:flex;
+  height:25%;
+  margin: 10px;
+}
+.description{
+  margin:10px 0px;
+}
+.vertical{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
 
+}
+.metadisc{
+  font-style: italic;
+}
+#footertag{
+text-align: center;
+padding :15px
+}
+#email{
+  width:50%;
+}
+.btncontinue{
+  margin-top: auto;
+  width:20%;
+  background-color: #C75D48;
+
+
+}
+p{
+  overflow: hidden;
+text-overflow: ellipsis;
 }
