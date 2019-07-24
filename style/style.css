@@ -13,6 +13,8 @@
   overflow-y: scroll;
   padding:10px;
 }
+.closeButton{
+}
 img{
   width: 20%;
 }
@@ -30,14 +32,6 @@ display: flex;
 HR{
   margin: 0px;
 }
-/* footer{
-
-  margin: 0px;
-  height: 5%;
-  border-width: 0.1px;
-    background-color:#273854;
-    color:#FFFFFD;
-} */
 h2{
   color: white;
   padding:20px;
@@ -47,7 +41,6 @@ i{
   padding:25px;
   margin: 0px;
   color:#FFFFFD;
-
 }
 footer{
   position: fixed;
@@ -62,13 +55,10 @@ main{
   width: 100%;
   margin: 0px;
   border-width: 0.1px;
-
 }
 .fullcont{
   display: flex;
-
 }
-
 .main-container{
   width: 100%;
 }
@@ -113,7 +103,6 @@ card{
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-left: 22px;
-  /* padding-bottom: 0px; */
 }
 #ddlnewschannel{
   width: 50%;
@@ -153,8 +142,6 @@ padding :15px
   margin-top: auto;
   width:20%;
   background-color: #C75D48;
-
-
 }
 p{
   overflow: hidden;
