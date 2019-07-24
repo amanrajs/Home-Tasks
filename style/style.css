@@ -42,15 +42,14 @@ i{
   padding:25px;
   margin: 0px;
   color:#FFFFFD;
-
 }
 footer{
   position: fixed;
   bottom: 0;
   width: 100%;
   border-width: 0.1px;
-    background-color:#273854;
-    color:#FFFFFD;
+  background-color:#273854;
+  color:#FFFFFD;
 }
 main{
   height: 80%;
@@ -68,9 +67,9 @@ main{
 }
 .left-container{
    display: flex;
-    width: 80%;
-    height: 100%;
-    flex-direction: column;
+   width: 80%;
+   height: 100%;
+   flex-direction: column;
 }
 .check{
   margin-left: auto;
@@ -98,7 +97,6 @@ main{
 }
 card{
   display: inline-block;
-
 }
 .col-picture{
   margin-top: 16px;
@@ -117,7 +115,7 @@ card{
 }
 #btn-email{
   color:#FFFFFD;
-background-color: #242424;
+  background-color: #242424;
 }
 h4,h6,p{
   padding: 0px;
@@ -138,14 +136,13 @@ h4,h6,p{
   display: flex;
   flex-direction: column;
   padding-left: 15px;
-
 }
 .metadisc{
   font-style: italic;
 }
 #footertag{
-text-align: center;
-padding :15px
+ text-align: center;
+ padding :15px
 }
 #email{
   width:60%;
@@ -157,5 +154,5 @@ padding :15px
 }
 p{
   overflow: hidden;
-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
